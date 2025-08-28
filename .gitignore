@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Byte-compiled / cache
+*.mypy_cache/
+*.pytest_cache/
+.pytest_cache/
+.pyre/
+.coverage
+htmlcov/
+
+# Local databases
+*.sqlite3
+
+# Environment & secrets
+.env
+.env.*
+!.env.example   # keep a safe template if you want
+
+# Docker
+docker-compose.override.yml
+*.pid
+
+# Alembic (keep migration scripts but ignore generated cache)
+alembic/versions/__pycache__/
